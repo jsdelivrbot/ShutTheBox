@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+		<div id="wrapped">
+		<h1 class="flag">Shut the box</h1>
+		</div>
+		<div class="wrapper">
+    <div id="tiles">
+      <div id="tile1" class="tile" onclick="game.tileClick(1)">1</div>
+      <div id="tile2" class="tile" onclick="game.tileClick(2)">2</div>
+      <div id="tile3" class="tile" onclick="game.tileClick(3)">3</div>
+      <div id="tile4" class="tile" onclick="game.tileClick(4)">4</div>
+      <div id="tile5" class="tile" onclick="game.tileClick(5)">5</div>
+      <div id="tile6" class="tile" onclick="game.tileClick(6)">6</div>
+      <div id="tile7" class="tile" onclick="game.tileClick(7)">7</div>
+      <div id="tile8" class="tile" onclick="game.tileClick(8)">8</div>
+      <div id="tile9" class="tile" onclick="game.tileClick(9)">9</div>
+    </div>
+			<button id="diceSpin" onclick="game.spin();">
+				Spin
+			</button>
+<!-- 			<img href=""></img> -->
+			<span id="num1">
+				0
+			</span>
+			<span id="num2">
+				0
+			</span>
+			<span id="totalText">
+				You must knock down 0 more numbers. 
+			</span>
+			<button id="confirm" onclick="game.submit();">
+				Sumbit & Spin
+			</button>
+			<span id="score">
+				Score: 45
+			</span>
+		</div>
+<!-- 		<section class="container">
+  <div id="card">
+    <figure class="front">1</figure>
+    <figure class="back">2</figure>
+  </div>
+</section> -->
+  </body>
+</html>
